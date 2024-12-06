@@ -1,0 +1,12 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Online-Sudoku",
+      "request": "launch",
+      // "cwd": "${workspaceFolder}",
+      "mainClass": "sudoku.OnlineSudokuApplication",
+      "projectName": "backend"
+    }
+  ]
+}

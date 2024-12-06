@@ -1,0 +1,24 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "[java]": {
+    "editor.defaultFormatter": "Oracle.oracle-java",
+    "editor.tabSize": 2
+  },
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3333,
+      "driver": "PostgreSQL",
+      "database": "online-sudoku",
+      "username": "postgres",
+      "name": "online-sudoku"
+    }
+  ],
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.debug.settings.onBuildFailureProceed": true,
+  "java.jdt.ls.lombokSupport.enabled": true
+}
